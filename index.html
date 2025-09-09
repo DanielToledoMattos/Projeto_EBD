@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -7,23 +8,93 @@
     <title>Escola Bíblica Dominical</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
+
 <body>
 
     <header>
-        <nav>
-            <div id="header1">
-                <img id="logo" src="imagens/an-open-dictionary-with-broad-definitions-cut-out-transparent-png.webp" alt="">
-                <a href="">Administração <img src="imagens/seta.png" alt="" srcset=""></a>
-                <a href="">Docência <img src="imagens/seta.png" alt="" srcset=""></a>
-                <a href="">Desempenho <img src="imagens/seta.png" alt="" srcset=""></a>
-            </div>
-             <div id="header2">
-                <a href="">Meu perfíl <img src="imagens/seta.png" alt="" srcset=""></a>
+        <nav class="menu-nav">
+            <div class="menu-dropdown">
+                <img src="imagens/logo insta.png" alt="">
+
+                <div class="dropdown">
+                    <p class="dropbtn">Administração</p>
+                    <div class="dropdown-content">
+                        <a href="#">Financeiro</a>
+                        <a href="#">Corpo Docente</a>
+                        <a href="#">Cronograma</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn">Docência</p>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn">Alunos</p>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p class="dropbtn">Dashboard</p>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
             </div>
 
+            <div class="perfil">
+                <h3>Daniel Toledo<br> <span>Secretário</span></h3>
+                <div class="imgcx">
+                    <img src="imagens/perfil.jpeg" alt="imagem-perfil">
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                            Perfil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            Caixa de entrada
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="settings-outline"></ion-icon>
+                            Configurações
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="help-circle-outline"></ion-icon>
+                            Ajuda
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="exit-outline"></ion-icon>
+                            Deslogar</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    
-    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JS/script.js"></script>
 </body>
+
 </html>
